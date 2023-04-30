@@ -1,0 +1,71 @@
+#menu{
+    height: 180px;
+}
+
+#menu-container{
+    flex-direction: column;
+    padding: 10px 0;
+}
+
+#menu-botao{
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+}
+
+#menu-botao li:nth-child(2){
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+    padding: 5px 0;
+}
+
+#showcase{ 
+    text-align: center;
+    
+}
+
+
+
+#clientes .titulo{
+    text-align: center;
+}
+
+#logo-clientes{
+    grid-template-columns: repeat(2, 1fr);
+}
+
+#logo-clientes img{
+    width: 50%;
+}
+
+#tipo-trabalho{
+    grid-template-columns: 1fr;
+}
+
+#tipo-trabalho div{
+    margin: 10px;
+    width: 100%;
+}
+
+#sobre-nos .titulo{
+    text-align: center;
+}
+
+#depoimentos{
+    text-align: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+#depoimentos div{
+    padding: 10;
+    display: inline-block;
+}
+
+#galeria div{
+    grid-template-columns: 1fr;
+}
+
+.imagem-galeria{
+    width: 100%;
+}
